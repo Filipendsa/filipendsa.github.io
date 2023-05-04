@@ -6,7 +6,7 @@
     --header-height: 3rem;
 
     /*==================== Colors ============================*/
-    --hue-color: 230; /* purple=250  green=142 blue=230 pink=340*/
+    --hue-color: 142; /* purple=250  green=142 blue=230 pink=340*/
 
     --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
@@ -502,7 +502,8 @@ font-size: var(--h3-font-size);
     width: 30%;
 }
 
-.skillsMysql{
+.skillsMysql,
+.skillsJava{
     width: 60%;
 }
 
