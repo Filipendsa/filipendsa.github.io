@@ -133,7 +133,7 @@ window.addEventListener('scroll', scrollHeader)
 
 function scrollUp(){
   const scrollUp = document.getElementById('scroll-up');
-  if(this.scrollY >= 560) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
+  if(this.scrollY >= 560) scrollUp.classList.add('showScroll'); else scrollUp.classList.remove('showScroll')
 }
 window.addEventListener('scroll', scrollUp)
 
