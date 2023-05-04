@@ -850,13 +850,13 @@ row-gap: 3.5rem;
 .footerCopy{
     font-size: var(--smaller-font-size);
     text-align: center;
-    color: var(--text-color-light);
     margin-top: var(--mb-3);
 }
 
 .footerTitle,
 .footerSubtitle,
 .footerLink,
+.footerCopy,
 .footerSocial{
     color: #fff;
 }
