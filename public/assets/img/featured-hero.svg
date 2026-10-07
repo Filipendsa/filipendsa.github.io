@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" fill="none">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121620"/>
+      <stop offset="50%" stop-color="#0e1118"/>
+      <stop offset="100%" stop-color="#080a0e"/>
+    </linearGradient>
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="neonEmerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#00f5a0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" rx="20" fill="url(#heroBg)"/>
+  <rect x="1" y="1" width="598" height="338" rx="19" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+  
+  <!-- Subtle Grid lines -->
+  <path d="M40 0v340M120 0v340M200 0v340M280 0v340M360 0v340M440 0v340M520 0v340" stroke="rgba(255,255,255,0.02)" stroke-width="1"/>
+  <path d="M0 60h600M0 120h600M0 180h600M0 240h600M0 300h600" stroke="rgba(255,255,255,0.02)" stroke-width="1"/>
+  
+  <!-- Modern Mockup Window -->
+  <g transform="translate(40, 36)">
+    <rect width="520" height="268" rx="14" fill="#161b26" stroke="rgba(0,229,255,0.25)" stroke-width="1.5"/>
+    <!-- Window Bar -->
+    <rect width="520" height="36" rx="14" fill="#1a202d"/>
+    <path d="M0 24h520v12H0z" fill="#1a202d"/>
+    <circle cx="20" cy="18" r="4.5" fill="#ef4444"/>
+    <circle cx="36" cy="18" r="4.5" fill="#f59e0b"/>
+    <circle cx="52" cy="18" r="4.5" fill="#10b981"/>
+    <text x="76" y="22" font-family="'JetBrains Mono', monospace" font-size="11" fill="rgba(255,255,255,0.4)">dotnet new clean-arch --enterprise</text>
+    <rect x="420" y="10" width="84" height="16" rx="8" fill="rgba(0,229,255,0.15)"/>
+    <text x="432" y="22" font-family="'JetBrains Mono', monospace" font-size="10" fill="#00e5ff">.NET 8 · DDD</text>
+
+    <!-- Code & Architecture Visualization -->
+    <g transform="translate(24, 52)">
+      <!-- Left side: Code snippet -->
+      <rect width="250" height="190" rx="8" fill="#10141d" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+      <text x="16" y="28" font-family="'JetBrains Mono', monospace" font-size="11" fill="#38bdf8">// Core Domain Entity</text>
+      <text x="16" y="48" font-family="'JetBrains Mono', monospace" font-size="11" fill="#e2e8f0"><tspan fill="#f43f5e">public class</tspan> Order : <tspan fill="#00f5a0">AggregateRoot</tspan></text>
+      <text x="16" y="68" font-family="'JetBrains Mono', monospace" font-size="11" fill="#e2e8f0">{</text>
+      <text x="28" y="88" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#94a3b8"><tspan fill="#f43f5e">public void</tspan> Dispatch()</text>
+      <text x="28" y="108" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#94a3b8">{</text>
+      <text x="40" y="128" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#facc15">AddDomainEvent</text>
+      <text x="144" y="128" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#cbd5e1">(<tspan fill="#38bdf8">new</tspan> OrderDispatched());</text>
+      <text x="28" y="148" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#94a3b8">}</text>
+      <text x="16" y="168" font-family="'JetBrains Mono', monospace" font-size="11" fill="#e2e8f0">}</text>
+      
+      <!-- Right side: Layered Architecture Badges -->
+      <g transform="translate(268, 4)">
+        <!-- Layer 1 -->
+        <rect width="204" height="38" rx="8" fill="rgba(0,229,255,0.08)" stroke="rgba(0,229,255,0.3)" stroke-width="1"/>
+        <text x="14" y="24" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#00e5ff">1. Domain Layer</text>
+        <circle cx="186" cy="19" r="3" fill="#00e5ff"/>
+
+        <!-- Layer 2 -->
+        <rect y="48" width="204" height="38" rx="8" fill="rgba(16,185,129,0.08)" stroke="rgba(16,185,129,0.3)" stroke-width="1"/>
+        <text x="14" y="72" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#10b981">2. Application (CQRS)</text>
+        <circle cx="186" cy="67" r="3" fill="#10b981"/>
+
+        <!-- Layer 3 -->
+        <rect y="96" width="204" height="38" rx="8" fill="rgba(56,189,248,0.08)" stroke="rgba(56,189,248,0.3)" stroke-width="1"/>
+        <text x="14" y="120" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#38bdf8">3. Infrastructure (EF)</text>
+        <circle cx="186" cy="115" r="3" fill="#38bdf8"/>
+
+        <!-- Layer 4 -->
+        <rect y="144" width="204" height="38" rx="8" fill="rgba(244,63,94,0.08)" stroke="rgba(244,63,94,0.3)" stroke-width="1"/>
+        <text x="14" y="168" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#f43f5e">4. Presentation (API)</text>
+        <circle cx="186" cy="163" r="3" fill="#f43f5e"/>
+      </g>
+    </g>
+  </g>
+</svg>

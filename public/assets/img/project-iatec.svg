@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" fill="none">
+  <defs>
+    <linearGradient id="iatecBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f141d"/>
+      <stop offset="100%" stop-color="#090c12"/>
+    </linearGradient>
+    <linearGradient id="headerBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1565c0"/>
+      <stop offset="100%" stop-color="#0288d1"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="20" fill="url(#iatecBg)"/>
+  <rect x="1" y="1" width="598" height="358" rx="19" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+  
+  <!-- Browser Frame -->
+  <g transform="translate(32, 24)">
+    <rect width="536" height="312" rx="14" fill="#0d1117" stroke="rgba(21,101,192,0.3)" stroke-width="1.5"/>
+    
+    <!-- Top Window Chrome -->
+    <rect width="536" height="32" rx="14" fill="#161b22"/>
+    <path d="M0 20h536v12H0z" fill="#161b22"/>
+    <circle cx="18" cy="16" r="4" fill="#ef4444"/>
+    <circle cx="32" cy="16" r="4" fill="#f59e0b"/>
+    <circle cx="46" cy="16" r="4" fill="#10b981"/>
+    <rect x="66" y="8" width="140" height="16" rx="8" fill="rgba(255,255,255,0.06)"/>
+    <text x="78" y="20" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94a3b8">7you.app/portal</text>
+    <rect x="420" y="8" width="102" height="16" rx="8" fill="rgba(2,136,209,0.2)"/>
+    <text x="430" y="20" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#38bdf8">IATec Core · Net8</text>
+
+    <!-- 7you Blue Header Bar -->
+    <g transform="translate(0, 32)">
+      <rect width="536" height="48" fill="url(#headerBlue)"/>
+      
+      <!-- 7you Logo pill -->
+      <circle cx="28" cy="24" r="14" fill="#ffffff"/>
+      <text x="18" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="12" fill="#1565c0">7you</text>
+      
+      <text x="50" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="rgba(255,255,255,0.85)">Bem-vindo(a) ao 7you</text>
+      <text x="50" y="33" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#ffffff">Filipe</text>
+
+      <!-- Right profile avatar badge -->
+      <circle cx="488" cy="24" r="12" fill="rgba(255,255,255,0.2)"/>
+      <text x="481" y="28" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#ffffff">FS</text>
+      <text x="432" y="27" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#ffffff">Filipe Silva</text>
+    </g>
+
+    <!-- App Body: Left Sidebar + Main Content -->
+    <g transform="translate(14, 90)">
+      <!-- Left Sidebar: Aplicações -->
+      <rect width="112" height="176" rx="10" fill="#161c24" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+      <text x="14" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#cbd5e1">Aplicações</text>
+      
+      <!-- Sidebar Item: Career -->
+      <rect x="10" y="34" width="92" height="26" rx="6" fill="rgba(2,136,209,0.15)"/>
+      <circle cx="22" cy="47" r="4" fill="#0288d1"/>
+      <text x="32" y="51" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#38bdf8">Career</text>
+
+      <!-- Sidebar Item: Personnel -->
+      <rect x="10" y="66" width="92" height="26" rx="6" fill="transparent"/>
+      <circle cx="22" cy="79" r="4" fill="#94a3b8"/>
+      <text x="32" y="83" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94a3b8">Personnel</text>
+
+      <!-- Sidebar Item: Translate -->
+      <rect x="10" y="98" width="92" height="26" rx="6" fill="transparent"/>
+      <circle cx="22" cy="111" r="4" fill="#94a3b8"/>
+      <text x="32" y="115" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94a3b8">Translate</text>
+
+      <!-- Main Portal: Atalhos Principais -->
+      <g transform="translate(124, 0)">
+        <text x="2" y="14" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#ffffff">Atalhos principais</text>
+        <text x="2" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0288d1">Área do colaborador</text>
+
+        <!-- Search box mini -->
+        <rect x="238" y="2" width="144" height="22" rx="11" fill="#161c24" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+        <text x="252" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#64748b">🔍 Buscar atalho</text>
+
+        <!-- 6 Shortcut Cards Grid -->
+        <g transform="translate(0, 38)">
+          <!-- Card 1: Meu Perfil -->
+          <rect width="118" height="60" rx="8" fill="#161c24" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+          <circle cx="20" cy="20" r="7" fill="rgba(2,136,209,0.2)"/>
+          <text x="16" y="23" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#38bdf8">👤</text>
+          <text x="14" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#f8fafc">Meu Perfil</text>
+
+          <!-- Card 2: Meu Currículo -->
+          <rect x="128" width="118" height="60" rx="8" fill="#161c24" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+          <circle cx="148" cy="20" r="7" fill="rgba(16,185,129,0.2)"/>
+          <text x="144" y="23" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#10b981">💼</text>
+          <text x="142" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#f8fafc">Meu Currículo</text>
+
+          <!-- Card 3: Buscar vagas -->
+          <rect x="256" width="124" height="60" rx="8" fill="#161c24" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+          <circle cx="276" cy="20" r="7" fill="rgba(245,158,11,0.2)"/>
+          <text x="272" y="23" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#f59e0b">🔍</text>
+          <text x="270" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#f8fafc">Buscar vagas</text>
+
+          <!-- Row 2 -->
+          <!-- Card 4: Candidaturas -->
+          <rect y="68" width="118" height="60" rx="8" fill="#161c24" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+          <circle cx="20" cy="88" r="7" fill="rgba(168,85,247,0.2)"/>
+          <text x="16" y="91" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#c084fc">📋</text>
+          <text x="14" y="112" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#f8fafc">Candidaturas</text>
+
+          <!-- Card 5: Feedbacks -->
+          <rect x="128" y="68" width="118" height="60" rx="8" fill="#161c24" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+          <circle cx="148" cy="88" r="7" fill="rgba(2,136,209,0.2)"/>
+          <text x="144" y="91" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#38bdf8">💬</text>
+          <text x="142" y="112" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#f8fafc">Feedbacks</text>
+
+          <!-- Card 6: Permissões de Usuário -->
+          <rect x="256" y="68" width="124" height="60" rx="8" fill="#161c24" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+          <circle cx="276" cy="88" r="7" fill="rgba(0,229,255,0.2)"/>
+          <text x="272" y="91" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#00e5ff">🔐</text>
+          <text x="270" y="112" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#f8fafc">Permissões</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

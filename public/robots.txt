@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://filipendsa.github.io/sitemap.xml

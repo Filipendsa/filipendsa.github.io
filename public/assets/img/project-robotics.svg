@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" fill="none">
+  <defs>
+    <linearGradient id="roboBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1215"/>
+      <stop offset="100%" stop-color="#06090c"/>
+    </linearGradient>
+    <radialGradient id="sensorRadar" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.3"/>
+      <stop offset="60%" stop-color="#10b981" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="360" rx="20" fill="url(#roboBg)"/>
+  <rect x="1" y="1" width="598" height="358" rx="19" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+
+  <!-- Radar & Logistics Visualization -->
+  <g transform="translate(36, 28)">
+    <rect width="528" height="304" rx="14" fill="#0c1619" stroke="rgba(16,185,129,0.3)" stroke-width="1.5"/>
+    <rect width="528" height="38" rx="14" fill="#112024"/>
+    <path d="M0 24h528v14H0z" fill="#112024"/>
+    <circle cx="20" cy="19" r="4.5" fill="#ef4444"/>
+    <circle cx="36" cy="19" r="4.5" fill="#f59e0b"/>
+    <circle cx="52" cy="19" r="4.5" fill="#10b981"/>
+    <text x="76" y="23" font-family="'JetBrains Mono', monospace" font-size="11" fill="#10b981">ENAIC 2024/2025 · Autonomous Logistics Rover (UNASP)</text>
+
+    <!-- Radar Area -->
+    <g transform="translate(24, 52)">
+      <!-- Left: Sensor Radar Display -->
+      <g transform="translate(10, 10)">
+        <circle cx="110" cy="110" r="100" fill="url(#sensorRadar)"/>
+        <circle cx="110" cy="110" r="100" stroke="rgba(0,229,255,0.15)" stroke-width="1"/>
+        <circle cx="110" cy="110" r="70" stroke="rgba(0,229,255,0.2)" stroke-width="1" stroke-dasharray="3 3"/>
+        <circle cx="110" cy="110" r="40" stroke="rgba(0,229,255,0.3)" stroke-width="1"/>
+        <line x1="10" y1="110" x2="210" y2="110" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+        <line x1="110" y1="10" x2="110" y2="210" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+        
+        <!-- Radar Sweep Line -->
+        <line x1="110" y1="110" x2="190" y2="50" stroke="#00e5ff" stroke-width="2"/>
+        <polygon points="110,110 190,50 160,28" fill="rgba(0,229,255,0.15)"/>
+        
+        <!-- Obstacles detected -->
+        <circle cx="160" cy="65" r="4" fill="#f43f5e"/>
+        <circle cx="160" cy="65" r="8" stroke="#f43f5e" stroke-width="1" stroke-dasharray="2 2"/>
+        <circle cx="70" cy="140" r="4" fill="#f59e0b"/>
+        
+        <!-- Rover at center -->
+        <rect x="98" y="98" width="24" height="24" rx="4" fill="#10b981" stroke="#fff" stroke-width="1.5"/>
+        <polygon points="110,92 105,98 115,98" fill="#fff"/>
+      </g>
+
+      <!-- Right: Telemetry & Specs -->
+      <g transform="translate(250, 14)">
+        <rect width="220" height="48" rx="8" fill="#101f23" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+        <text x="14" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94a3b8">Sensors &amp; Navigation</text>
+        <text x="14" y="38" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#00e5ff">Ultrasonic + Infrared Fusion</text>
+
+        <rect y="58" width="220" height="48" rx="8" fill="#101f23" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+        <text x="14" y="78" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94a3b8">Hardware Core</text>
+        <text x="14" y="96" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#10b981">C++ · Custom 3D Chassis</text>
+
+        <rect y="116" width="220" height="74" rx="8" fill="#101f23" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+        <text x="14" y="136" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94a3b8">Logistics Performance</text>
+        <text x="14" y="156" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#fff">Autonomous Route Bypass</text>
+        <text x="14" y="174" font-family="'JetBrains Mono', monospace" font-size="10" fill="#38bdf8">Internal school material dispatch</text>
+      </g>
+    </g>
+  </g>
+</svg>
