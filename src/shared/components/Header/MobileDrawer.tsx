@@ -72,14 +72,6 @@ export const MobileDrawer: React.FC<MobileDrawerProps> = ({ isOpen, onClose }) =
           >
             LinkedIn ↗
           </a>
-          <a
-            href="/curriculo/index.html"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="pill-link"
-          >
-            {t('pill_cv')} ↗
-          </a>
         </div>
       </div>
     </div>

@@ -45,6 +45,21 @@ export const Navbar: React.FC = () => {
         </nav>
 
         <div className="nav-actions">
+          <a
+            href="/curriculo/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-cv-btn"
+            title={t('nav_cv')}
+            aria-label={t('nav_cv')}
+          >
+            <span className="nav-cv-label-full">{t('nav_cv')}</span>
+            <span className="nav-cv-label-short">CV</span>
+            <span className="nav-cv-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <div className="nav-actions-separator" aria-hidden="true"></div>
+
           <LanguageSwitcher />
 
           {/* Mobile Hamburger Button */}

@@ -7,6 +7,7 @@ export const en = {
   nav_projects: "Projects",
   nav_research: "Research",
   nav_contact: "Contact",
+  nav_cv: "Resume",
 
   // Hero
   hero_role_1: "Software",
